@@ -2,8 +2,8 @@ s = str(input("Введите строку (на русском языке): "))
 count = 0
 count2 = 0
 s_low = s.lower()
-glasnie = set("ауоиэыяюеё") # множество гласных
-soglasnie = set("бвгджзйклмнпрмтфхцчшщ") # множество согласных
+glasnie = ("ауоиэыяюеё") # множество гласных
+soglasnie = ("бвгджзйклмнпрмтфхцчшщ") # множество согласных
 for letter in s_low:
     if letter in glasnie:
         count += 1
